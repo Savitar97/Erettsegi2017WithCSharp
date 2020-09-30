@@ -1,0 +1,13 @@
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\bin\Debug\netcoreapp3.1\ErettsegiFeladat2017.exe
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\bin\Debug\netcoreapp3.1\ErettsegiFeladat2017.deps.json
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\bin\Debug\netcoreapp3.1\ErettsegiFeladat2017.runtimeconfig.json
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\bin\Debug\netcoreapp3.1\ErettsegiFeladat2017.runtimeconfig.dev.json
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\bin\Debug\netcoreapp3.1\ErettsegiFeladat2017.dll
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\bin\Debug\netcoreapp3.1\ErettsegiFeladat2017.pdb
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\obj\Debug\netcoreapp3.1\ErettsegiFeladat2017.csprojAssemblyReference.cache
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\obj\Debug\netcoreapp3.1\ErettsegiFeladat2017.AssemblyInfoInputs.cache
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\obj\Debug\netcoreapp3.1\ErettsegiFeladat2017.AssemblyInfo.cs
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\obj\Debug\netcoreapp3.1\ErettsegiFeladat2017.csproj.CoreCompileInputs.cache
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\obj\Debug\netcoreapp3.1\ErettsegiFeladat2017.dll
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\obj\Debug\netcoreapp3.1\ErettsegiFeladat2017.pdb
+C:\Users\IfritR\source\repos\ErettsegiFeladat2017\obj\Debug\netcoreapp3.1\ErettsegiFeladat2017.genruntimeconfig.cache
