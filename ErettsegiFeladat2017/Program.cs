@@ -11,26 +11,12 @@ namespace ErettsegiFeladat2017
     {
         public static float TuraTeljesHossza(List<Szakasz> szakaszok)
         {
-            float szum = 0;
-            foreach (var element in szakaszok)
-            {
-                szum += element.Hossz;
-            }
-            return szum;
+            return szakaszok.Sum(element=>element.Hossz);
         }
 
         public static Szakasz Legrovidebb(List<Szakasz> szakaszok)
         {
-            Szakasz legrovidebb = new Szakasz();
-            float shortest = szakaszok.Min(element => element.Hossz);
-            foreach(var element in szakaszok)
-            {
-                if (element.Hossz == shortest)
-                {
-                    legrovidebb = element;
-                }
-            }
-            return legrovidebb;
+            return szakaszok.Find(element => element.Hossz == szakaszok.Min(element => element.Hossz));
         }
 
         public static bool HianyosNev(Szakasz sz)
@@ -64,8 +50,7 @@ namespace ErettsegiFeladat2017
         public static List<String> LegmagasabbVegpontesMagassaga(List<Szakasz> szakaszok,float kezdomagassag)
         {
             List<string> eredmeny = new List<string>();
-            float max= szakaszok.Max(element => element.Emelkedes-element.Lejtes);
-            Szakasz sz = szakaszok.Find(e => (e.Emelkedes - e.Lejtes) == max);
+            Szakasz sz = szakaszok.Find(e => (e.Emelkedes - e.Lejtes) == szakaszok.Max(element => element.Emelkedes - element.Lejtes));
             eredmeny.Add(sz.Vegpont);
             float maxmagassag = 0;
             foreach(var element in szakaszok)
@@ -117,7 +102,7 @@ namespace ErettsegiFeladat2017
                 throw new FileNotFoundException();
             }
             
-            Console.WriteLine("3.feladat: Szakaszok száma:{0}",adatok.Capacity);
+            Console.WriteLine("3.feladat: Szakaszok száma:{0}",adatok.Count);
             Console.WriteLine("4.feladat: A túra teljes hossza:{0:0.000} km",TuraTeljesHossza(adatok));
             Console.WriteLine("5.feladat: A legrövidebb szakasz adatai:");
             Console.WriteLine("Kezdete:{0}",Legrovidebb(adatok).Kiindulopont);
